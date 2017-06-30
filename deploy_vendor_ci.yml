@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+
+  roles:
+    - ansible-role-devstack
+    - ansible-role-zookeeper
+    - ansible-role-nodepool
